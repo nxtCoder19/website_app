@@ -1,7 +1,7 @@
 import React from "react";
-import { AboutComponent } from "../components/AboutComponent";
+import { About } from "../components/about";
 
-export const About = () => {
+export const AboutPage = () => {
   return (
     <div className="mt-10 mb-20">
       <div className="text-center font-bold mb-10">
@@ -9,7 +9,7 @@ export const About = () => {
           KloudLite is an automated DevOps console.
         </span>
       </div>
-      <AboutComponent />
+      <About />
     </div>
   );
 };

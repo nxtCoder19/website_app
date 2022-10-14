@@ -1,8 +1,8 @@
 import React from "react";
 import { TiTick } from "react-icons/ti";
-import { Card } from "./Card";
+import { Card } from "./card";
 
-export const AboutComponent = () => {
+export const About = () => {
   return (
     <div className="container mx-auto">
       <div className="flex justify-between items-center mb-4">

@@ -1,5 +1,5 @@
 import React from "react";
-import { GridItemCard } from "../components/GridItemCard";
+import { GridItemCard } from "../components/gridItem-card";
 
 export const Footer = () => {
   return (

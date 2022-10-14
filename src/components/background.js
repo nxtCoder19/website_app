@@ -1,8 +1,8 @@
 import React from "react";
 import { FaArrowRight } from "react-icons/fa";
-import { TextfieldComponent } from "./TextfieldComponent";
+import { TextfieldComponent } from "./textfield-component";
 
-export const BackgroundComponent = () => {
+export const Background = () => {
   return (
     <div className="container mx-auto">
       <div className="flex justify-between text-white">
