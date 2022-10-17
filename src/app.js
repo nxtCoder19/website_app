@@ -4,17 +4,21 @@ import { MoreInfo } from "./components/more-info";
 import { Navigation } from "./components/navigation";
 import { AboutPage } from "./pages/about";
 import { Footer } from "./pages/footer";
-import {Button} from "./components-new/atoms/button";
-import {Header} from "./components-new/orgs/header";
-import {Textfield} from "./components-new/atoms/textfield";
+import { Header } from "./components-new/orgs/header";
+import { Form } from "./components-new/orgs/form";
+import { Textfield } from "./components-new/atoms/textfield";
+import { Button, TextfieldButton } from "./components-new/atoms/button";
+import { Details } from "./components-new/orgs/details";
 
-
-const App = ()=>{
-  return <>
-    <Header />
-    <Textfield label={"Hello"} placeholder={"hello"}></Textfield>
-  </>
-}
+const App = () => {
+  return (
+    <>
+      <Header />
+      <Form />
+      <Details />
+    </>
+  );
+};
 
 function App2() {
   return (
