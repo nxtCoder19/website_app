@@ -3,12 +3,10 @@ import { Background } from "./components/background";
 import { MoreInfo } from "./components/more-info";
 import { Navigation } from "./components/navigation";
 import { AboutPage } from "./pages/about";
-import { Footer } from "./pages/footer";
 import { Header } from "./components-new/orgs/header";
 import { Form } from "./components-new/orgs/form";
-import { Textfield } from "./components-new/atoms/textfield";
-import { Button, TextfieldButton } from "./components-new/atoms/button";
 import { Details } from "./components-new/orgs/details";
+import { Footer } from "./components-new/orgs/footer";
 
 const App = () => {
   return (
@@ -16,6 +14,7 @@ const App = () => {
       <Header />
       <Form />
       <Details />
+      <Footer />
     </>
   );
 };

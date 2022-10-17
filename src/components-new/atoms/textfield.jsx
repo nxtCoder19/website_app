@@ -38,7 +38,11 @@ export const Textfield = ({ label, placeholder, icon }) => {
         />
 
         <div className={`place-self-center px-4`}>
-          {icon && icon({ color: focused ? "blue" : "grey-200" })}
+          {icon &&
+            icon({
+              color: focused ? "blue" : "grey-200",
+              style: "color: green",
+            })}
           {/* {icon && <icon color={focused ? "blue" : "red"} />} */}
         </div>
       </div>
