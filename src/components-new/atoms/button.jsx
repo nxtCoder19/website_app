@@ -29,7 +29,7 @@ export const LinkButton = ({ href, label }) => {
 
 export const TextfieldButton = ({ onClick, label, type, color, icon }) => {
   return (
-    <div className="mx-4 mb-10 mt-10">
+    <div className="mt-10">
       <button
         className=" bg-blue-600 text-white 
       rounded-md w-full px-4 py-3 hover:bg-blue-700"
@@ -48,15 +48,17 @@ export const TextfieldButton = ({ onClick, label, type, color, icon }) => {
 export const ContactButton = ({ type, onClick, label, icon }) => {
   return (
     <div className="md:flex justify-center">
-      <div className="mx-10 mb-10 mt-10 md:w-1/4">
+      <div className="mt-10">
         <button
           className=" bg-blue-600 text-white text-xl font-bold
-      rounded-md w-full px-4 py-3 hover:bg-blue-700"
+      rounded-md w-full px-8 py-4 hover:bg-blue-700"
           type={type}
           onClick={onClick}
         >
           <div className="flex justify-center">
-            <span className="py-1 px-2 text-xl">{icon}</span>
+            <span className="py-1 px-2 text-sm font-bold md:text-xl">
+              {icon}
+            </span>
             {label}
           </div>
         </button>

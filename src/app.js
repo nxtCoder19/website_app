@@ -11,10 +11,21 @@ import { Footer } from "./components-new/orgs/footer";
 const App = () => {
   return (
     <>
-      <Header />
-      <Form />
-      <Details />
-      <Footer />
+      <div className="">
+        <Header />
+        <div className="md:relative">
+          <div
+            className="py-36"
+            style={{ background: "url('/images/iStock-1162198296 1.svg')" }}
+          >
+            {" "}
+            <Form />
+          </div>
+        </div>
+        {/* <Form /> */}
+        <Details />
+        <Footer />
+      </div>
     </>
   );
 };

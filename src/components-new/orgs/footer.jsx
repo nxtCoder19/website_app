@@ -4,7 +4,7 @@ import Logo from "../logo";
 
 export const Footer = () => {
   return (
-    <div className=" container mx-auto px-8 mt-20 ">
+    <div className=" container mx-auto mt-24 px-8 mb-6">
       <div className="md:flex justify-between">
         <div className="md:place-self-center">
           <Logo />
@@ -17,8 +17,11 @@ export const Footer = () => {
           <FooterCardSection color={"bg-gray-200"} icon={<TiFolder />} />
         </div>
       </div>
-      <div className="mt-4 md:mt-12"></div>
-      <div className=" md:mt-4">
+      <div className="mt-6">
+        <hr />
+      </div>
+      <div className="mt-4 md:mt-6"></div>
+      <div>
         <div className="md:flex justify-between">
           <div className="md:flex">
             <div className="flex justify-between text-gray-500">

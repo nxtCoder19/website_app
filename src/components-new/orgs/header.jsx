@@ -10,7 +10,7 @@ export const Header = () => {
           "container",
           "mx-auto",
           "flex",
-          "justify-between",
+          "justify-between items-center",
           "py-6",
           "px-8"
         )}
